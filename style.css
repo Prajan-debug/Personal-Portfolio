@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.website{
+    display: flex;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(151,152,167,1) 100%, rgba(250,254,255,1) 100%, rgba(11,12,12,1) 100%);
+}
+
+.sidebar{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,254,255,1) 0%, rgba(11,12,12,1) 100%);
+    width: 15%;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    padding: 4.8rem;
+}
+
+
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 2.5rem;
+    padding: 3.3rem 0;
+    
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+
+.main{
+    
+    width: 90vw ;
+}
+
+
+
+.myinfo{
+
+    background: rgb(206, 210, 211);
+    height: 55vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.3rem;
+
+    
+}
+
+
+
+.prajaninfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.welcome{
+    font-size: 4.5rem;
+}
+
+.name{
+    font-size: 6.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 3.5rem;
+
+}
+
+.more-aboutme{
+    font-size: 1.6rem;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 2.0rem;
+}
+
+.button button{
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1.9rem;
+    color: white;
+    background-color: rgb(49, 38, 130);
+    cursor: pointer;
+
+}
+
+.button button a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 1.5rem;
+    
+
+}
+.button button:hover{
+    background-color: rgb(72, 174, 238);
+    
+    
+}
+
+.mypic img{
+    height: 35rem;
+    width: 31rem;
+}
+
+.contactpage{
+    display: flex;
+    
+    
+}
+
+.contact-form{
+
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 10rem;
+    padding-left: 3rem;
+}
+
+.contact-form h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    
+}
+
+.contact-form form div{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    font-size: 1.6rem;
+    
+}
+
+.contact-form form div input{
+    
+    border-radius: 0.6rem;
+
+}
+
+.socialaccount1 a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    padding: 0.2rem;
+    display: block;
+    width: 5.9rem;
+    background-color: rgb(11, 121, 157)
+    
+    
+    
+}
+
+.socialaccount1 button{
+    border-radius: 100%;
+}
+
+.socialaccount2 a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    padding: 0.2rem;
+    display: block;
+    width: 5.9rem;
+    background-color: black
+    
+}
+
+
+
+#emailHelp{
+    font-size: 1.2rem;
+    color: darkblue;
+    margin: 0 0.5rem;
+    padding: 0.3rem 0  0   0  ;
+}
+
+.aboutme{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.moreinfo-aboutme{
+    font-size: 1.6rem;
+    height: 12rem;
+    width: 120rem;
+    padding-top: 4.6rem;
+    padding-bottom: 0rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: rgb(206, 210, 211);
+    font-weight: 1.8rem;
+}
+
+.maininfo div{
+    margin-top: 1.5rem;
+    
+}
+
+.skills-header{
+    font-size: 5rem;
+}
+
+.skills div{
+    
+    text-align: center;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.skill1{
+
+    background-color: black;
+    color: white;
+    width: 90rem;
+
+}
+
+.skill2{
+    background-color: darkblue;
+    color: white;
+    width: 80rem;
+    
+}
+.skill3{
+    background-color: blueviolet;
+    color: white;
+    width: 50rem;
+    
+}
+.skill4{
+    background-color: rgb(132, 132, 12);
+    color: white;
+    width: 70rem;
+    
+}
+.skill5{
+    background-color: purple;
+    color: white;
+    width: 30rem;
+    
+}
+.skill6{
+    background-color: rgb(8, 173, 228);
+    color: white;
+    width: 80rem;
+    
+}
+
+.services-header h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.services-page{
+    display: flex;
+}
+
+.grid{
+    width: 80vw;
+}
+
+.grid div{
+    
+    font-size: 2.5rem;
+    display: inline;
+    margin: 0.5rem;
+
+}
+
+.option{
+    width: 50rem;
+    padding: 3.5rem;
+    margin: 1rem;
+    
+}
+
+.projects-page{
+    display: flex;
+}
+
+.project-info{
+    display: block;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+
+}
+
+.project-info a{
+    text-decoration: none;
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.project-info div{
+    margin-top: 2.5rem;
+    width: 90rem;
+}
+
+.link1{
+
+    background-color: rgb(43, 52, 226);
+    color: white;
+    border-radius: 1.5rem;
+
+}
+
+.link2{
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.link3{
+    background-color: purple;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.project-para{
+    background: rgb(206, 210, 211);
+    padding: 5rem;
+    border-radius: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+
+    
+}
+
+
